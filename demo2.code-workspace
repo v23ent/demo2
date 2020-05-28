@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"objectscript.conn.active": true,
+		"objectscript.conn.password": "sys"
+	}
+}
