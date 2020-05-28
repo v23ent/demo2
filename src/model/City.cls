@@ -3,6 +3,8 @@ Class model.City Extends %Persistent
 
 Property name As %String;
 
+Property regionName As %String;
+
 ClassMethod sayHi() As %Status
 {
     set st = $$$OK
@@ -18,6 +20,9 @@ Storage Default
 </Value>
 <Value name="2">
 <Value>name</Value>
+</Value>
+<Value name="3">
+<Value>regionName</Value>
 </Value>
 </Data>
 <DataLocation>^model.CityD</DataLocation>
